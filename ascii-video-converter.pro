@@ -21,3 +21,6 @@ HEADERS += \
 
 RESOURCES += \
     samples.qrc
+
+DISTFILES += \
+    README.md

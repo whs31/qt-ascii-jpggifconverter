@@ -2,9 +2,6 @@
     <qresource prefix="/">
         <file>samples/sample1.jpg</file>
         <file>samples/gif.gif</file>
-        <file>samples/rofl1.jpg</file>
-        <file>samples/rofl2.jpg</file>
-        <file>samples/rofl3.jpg</file>
         <file>samples/rofl4.jpg</file>
     </qresource>
 </RCC>
