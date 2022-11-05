@@ -14,8 +14,8 @@
 #include <QImage>
 #include <QMovie>
 
-static const int screen_width = 60;
-static const int screen_height = 20;
+static const int screen_width = 100;
+static const int screen_height = 40;
 static const int framerate = 1;
 constexpr static const char gradient[10] = { ' ', '.', ':',';','+','x','X','#','%','@' };
 
@@ -28,6 +28,7 @@ private:
     //QTimer *timer;
     QPixmap currentImage;
     QMovie *gif;
+    char charBuffer[screen_width][screen_height];
 
 private slots:
 void DrawScreen();
